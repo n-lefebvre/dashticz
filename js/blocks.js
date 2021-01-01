@@ -2271,6 +2271,7 @@ function showMap(mapid, map) {
         lat: map.latitude,
         lng: map.longitude,
       },
+      disableDefaultUI: true,
     });
   } else {
     map = new google.maps.Map(document.getElementById(mapid), {
